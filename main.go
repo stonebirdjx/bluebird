@@ -6,6 +6,19 @@ import (
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 
+// @title stonebridjx/bluebird
+// @version 1.0.0
+// @description Blue is a gentle, comforting color, and the blue bird symbolizes happiness and freedom.
+
+// @contact.name bluebird
+// @contact.url https://github.com/stonebridjx/bluebird
+
+// @license.name Apache 2.0
+// @license.url http://www.apache.org/licenses/LICENSE-2.0.html
+
+// @host localhost:8888
+// @BasePath /
+// @schemes http
 func main() {
 	h := server.Default()
 

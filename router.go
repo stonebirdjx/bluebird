@@ -4,12 +4,27 @@ package main
 
 import (
 	"github.com/cloudwego/hertz/pkg/app/server"
+	"github.com/hertz-contrib/swagger"
 	handler "github.com/stonebirdjx/bluebird/biz/handler"
+	_ "github.com/stonebirdjx/bluebird/docs"
+	swaggerFiles "github.com/swaggo/files"
 )
+
+const swaggerURL = "http://localhost:8888/swagger/doc.json"
 
 // customizeRegister registers customize routers.
 func customizedRegister(r *server.Hertz) {
 	r.GET("/ping", handler.Ping)
 
 	// your code ...
+
+	// swagger keep the last position.
+	swaggerRegister(r)
+}
+
+func swaggerRegister(r *server.Hertz) {
+	// The url pointing to API definition
+	// index html: http://localhost:8888/swagger/index.html
+	url := swagger.URL(swaggerURL)
+	r.GET("/swagger/*any", swagger.WrapHandler(swaggerFiles.Handler, url))
 }
