@@ -4,6 +4,7 @@ go 1.18
 
 require (
 	github.com/cloudwego/hertz v0.6.0
+	github.com/hertz-contrib/pprof v0.1.0
 	github.com/hertz-contrib/swagger v0.0.0-20220711030440-b6402d4709f0
 	github.com/swaggo/files v1.0.1
 	github.com/swaggo/swag v1.8.11
@@ -28,8 +29,11 @@ require (
 	github.com/henrylee2cn/goutil v0.0.0-20210127050712-89660552f6f8 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
+	github.com/kr/pretty v0.3.0 // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
 	github.com/nyaruka/phonenumbers v1.0.55 // indirect
+	github.com/rogpeppe/go-internal v1.8.0 // indirect
+	github.com/savsgio/gotils v0.0.0-20220530130905-52f3993e8d6d // indirect
 	github.com/tidwall/gjson v1.13.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
@@ -39,6 +43,7 @@ require (
 	golang.org/x/sys v0.5.0 // indirect
 	golang.org/x/text v0.7.0 // indirect
 	golang.org/x/tools v0.1.12 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
+	google.golang.org/protobuf v1.28.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )

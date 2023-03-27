@@ -4,6 +4,7 @@ package main
 
 import (
 	"github.com/cloudwego/hertz/pkg/app/server"
+	"github.com/hertz-contrib/pprof"
 )
 
 // @title stonebridjx/bluebird
@@ -21,6 +22,10 @@ import (
 // @schemes http
 func main() {
 	h := server.Default()
+
+	// default is "debug/pprof"
+	// pprof.Register(h, "dev/pprof")
+	pprof.Register(h)
 
 	register(h)
 	h.Spin()
