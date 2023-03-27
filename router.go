@@ -10,7 +10,7 @@ import (
 	swaggerFiles "github.com/swaggo/files"
 )
 
-const swaggerURL = "http://localhost:8888/swagger/doc.json"
+const swaggerURL = "http://127.0.0.1:8888/swagger/doc.json"
 
 // customizeRegister registers customize routers.
 func customizedRegister(r *server.Hertz) {
