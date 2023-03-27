@@ -6,6 +6,7 @@
 - [中间件](#%E4%B8%AD%E9%97%B4%E4%BB%B6)
   - [Swagger](#swagger)
   - [Pporf](#pporf)
+  - [Requestid](#requestid)
 - [初始化](#%E5%88%9D%E5%A7%8B%E5%8C%96)
   - [linux](#linux)
   - [windows](#windows)
@@ -33,6 +34,14 @@ go get github.com/swaggo/files
 ```bash
 go get github.com/hertz-contrib/pprof
 ```
+
+## Requestid
+
+```bash
+go get github.com/hertz-contrib/requestid
+```
+
+
 
 # 初始化
 

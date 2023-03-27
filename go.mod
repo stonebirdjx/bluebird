@@ -5,6 +5,7 @@ go 1.18
 require (
 	github.com/cloudwego/hertz v0.6.0
 	github.com/hertz-contrib/pprof v0.1.0
+	github.com/hertz-contrib/requestid v1.1.0
 	github.com/hertz-contrib/swagger v0.0.0-20220711030440-b6402d4709f0
 	github.com/swaggo/files v1.0.1
 	github.com/swaggo/swag v1.8.11
@@ -25,6 +26,7 @@ require (
 	github.com/go-openapi/spec v0.20.4 // indirect
 	github.com/go-openapi/swag v0.19.15 // indirect
 	github.com/golang/protobuf v1.5.0 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/henrylee2cn/ameda v1.4.10 // indirect
 	github.com/henrylee2cn/goutil v0.0.0-20210127050712-89660552f6f8 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
