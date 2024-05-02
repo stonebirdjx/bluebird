@@ -22,14 +22,21 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "hugo",
-	Short: "Hugo is a very fast static site generator",
-	Long: `A Fast and Flexible Static Site Generator built with
-				  love by spf13 and friends in Go.
-				  Complete documentation is available at https://gohugo.io/documentation/`,
+	Use:   "bluebird",
+	Short: "Bluebird is a very fast, efficient and comprehensive framework",
+	Long: `Bluebird is a service with speed limit, authentication, logs, metric, and trace.
+				  love by stonbird in Go.
+				  Complete documentation is available at https://github.com/stonebirdjx/bluebird`,
 	Run: func(cmd *cobra.Command, args []string) {
-		// Do Stuff Here
+		fmt.Println("bluebird is a very fast, efficient and comprehensive framework")
 	},
+}
+
+func init() {
+	rootCmd.AddCommand(
+		serverCmd,
+		versionCmd,
+	)
 }
 
 func Execute() {
