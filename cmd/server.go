@@ -17,6 +17,7 @@ package cmd
 import (
 	"github.com/cloudwego/hertz/pkg/app/server"
 	"github.com/spf13/cobra"
+	"github.com/stonebirdjx/bluebird/biz/conf"
 	"github.com/stonebirdjx/bluebird/biz/router"
 )
 
@@ -41,10 +42,26 @@ func init() {
 }
 
 func serverRun(cmd *cobra.Command, args []string) {
+	// 系统初始化
+	if err := serverInit(); err != nil {
+		panic(err)
+	}
+
+	port := conf.GetPort()
+	if port != "" {
+		scf.port = port
+	}
 	h := server.Default(
 		server.WithHostPorts(scf.port),
 	)
 
 	router.CustomizedRegister(h)
 	h.Spin()
+}
+
+func serverInit() error {
+	if err := conf.InitConfig(scf.configFile); err != nil {
+		return err
+	}
+	return nil
 }
