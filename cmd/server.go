@@ -14,7 +14,11 @@
 
 package cmd
 
-import "github.com/spf13/cobra"
+import (
+	"github.com/cloudwego/hertz/pkg/app/server"
+	"github.com/spf13/cobra"
+	"github.com/stonebirdjx/bluebird/biz/router"
+)
 
 var serverCmd = &cobra.Command{
 	Use:     "server",
@@ -33,10 +37,14 @@ var scf serverCmdFlags
 
 func init() {
 	serverCmd.Flags().StringVarP(&scf.configFile, "config", "c", "config.yaml", "Config file to use")
-	serverCmd.Flags().StringVarP(&scf.port, "port", "p", "6789", "Port to listen on")
+	serverCmd.Flags().StringVarP(&scf.port, "port", "p", ":6789", "Port to listen on")
 }
 
 func serverRun(cmd *cobra.Command, args []string) {
-	// TODO: Add your server logic here
+	h := server.Default(
+		server.WithHostPorts(scf.port),
+	)
 
+	router.CustomizedRegister(h)
+	h.Spin()
 }
