@@ -17,14 +17,11 @@ package conf
 import (
 	"os"
 
+	"github.com/stonebirdjx/bluebird/pkg/model"
 	"gopkg.in/yaml.v3"
 )
 
-type config struct {
-	Port string `yaml:"port"`
-}
-
-var cfg = &config{}
+var cfg = &model.Config{}
 
 func InitConfig(f string) error {
 	content, err := os.ReadFile(f)
@@ -38,4 +35,8 @@ func InitConfig(f string) error {
 // GetPort 返回cfg的port信息。
 func GetPort() string {
 	return cfg.Port
+}
+
+func GetLogInfo() model.LogConf {
+	return cfg.Log
 }

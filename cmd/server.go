@@ -15,9 +15,12 @@
 package cmd
 
 import (
+	"fmt"
+
 	"github.com/cloudwego/hertz/pkg/app/server"
 	"github.com/spf13/cobra"
 	"github.com/stonebirdjx/bluebird/biz/conf"
+	"github.com/stonebirdjx/bluebird/biz/log"
 	"github.com/stonebirdjx/bluebird/biz/router"
 )
 
@@ -38,7 +41,7 @@ var scf serverCmdFlags
 
 func init() {
 	serverCmd.Flags().StringVarP(&scf.configFile, "config", "c", "config.yaml", "Config file to use")
-	serverCmd.Flags().StringVarP(&scf.port, "port", "p", ":6789", "Port to listen on")
+	serverCmd.Flags().StringVarP(&scf.port, "port", "p", "6789", "Port to listen on")
 }
 
 func serverRun(cmd *cobra.Command, args []string) {
@@ -47,13 +50,9 @@ func serverRun(cmd *cobra.Command, args []string) {
 		panic(err)
 	}
 
-	port := conf.GetPort()
-	if port != "" {
-		scf.port = port
-	}
+	port := getPort()
 	h := server.Default(
-		server.WithHostPorts(scf.port),
-	)
+		server.WithHostPorts(port))
 
 	router.CustomizedRegister(h)
 	h.Spin()
@@ -63,5 +62,16 @@ func serverInit() error {
 	if err := conf.InitConfig(scf.configFile); err != nil {
 		return err
 	}
+	if err := log.Init(); err != nil {
+		return err
+	}
 	return nil
+}
+
+func getPort() string {
+	port := conf.GetPort()
+	if port != "" {
+		return fmt.Sprint(":" + port)
+	}
+	return fmt.Sprint(":" + scf.port)
 }

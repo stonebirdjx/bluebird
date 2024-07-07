@@ -1,1 +1,10 @@
-port: ":6789"
+port: "6789"
+
+log:
+  dir: "logs"
+  name: "bluebird.log"
+  level: "debug"
+  max_size: 20      #一个文件最大可达 20M
+  max_backups: 5   # 最多同时保存 5 个文件
+  max_age: 10     # 一个文件最多可以保存 10 天
+  compress: true  # 用 gzip 压缩
