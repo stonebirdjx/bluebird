@@ -23,13 +23,21 @@ import (
 
 var cfg = &model.Config{}
 
-func InitConfig(f string) error {
+func Init(f string) error {
 	content, err := os.ReadFile(f)
 	if err != nil {
 		return err
 	}
 
-	return yaml.Unmarshal(content, cfg)
+	if err := yaml.Unmarshal(content, cfg); err != nil {
+		return nil
+	}
+
+	if err := cfg.Validate(); err != nil {
+		return err
+	}
+
+	return nil
 }
 
 // GetPort 返回cfg的port信息。
@@ -39,4 +47,8 @@ func GetPort() string {
 
 func GetLogInfo() model.LogConf {
 	return cfg.Log
+}
+
+func GetOtelInfo() model.OtelConf {
+	return cfg.Otel
 }

@@ -3,8 +3,13 @@ package model
 import "fmt"
 
 type Config struct {
-	Port string  `yaml:"port"`
-	Log  LogConf `yaml:"log"`
+	Port string   `yaml:"port"`
+	Log  LogConf  `yaml:"log"`
+	Otel OtelConf `yaml:"otel"`
+}
+
+type OtelConf struct {
+	GrpcAddress string `yaml:"grpc_address"`
 }
 
 type LogConf struct {
@@ -22,6 +27,10 @@ func (c *Config) Validate() error {
 		return err
 	}
 
+	if err := c.Otel.Validate(); err != nil {
+		return err
+	}
+	
 	return nil
 }
 
@@ -50,5 +59,12 @@ func (l *LogConf) Validate() error {
 		l.MaxAge = 7
 	}
 
+	return nil
+}
+
+func (o *OtelConf) Validate() error {
+	if o.GrpcAddress == "" {
+		return fmt.Errorf("otel grpc address is empty")
+	}
 	return nil
 }

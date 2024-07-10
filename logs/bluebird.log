@@ -4,3 +4,197 @@
 {"level":"info","ts":"2024-07-07 16:12:33.081","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
 {"level":"info","ts":"2024-07-07 16:12:33.081","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
 {"level":"info","ts":"2024-07-07 16:12:33.081","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-07 21:46:00.270","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-07 21:46:00.271","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-07 21:46:00.272","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-07 21:49:09.850","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-07 21:49:09.851","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-07 21:49:09.851","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-07 21:49:16.927","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-07 21:49:16.928","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-07 21:49:16.928","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 12:11:04.436","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: hangup\n"}
+{"level":"info","ts":"2024-07-10 12:11:04.437","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 12:11:04.437","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 13:01:37.547","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 13:01:37.547","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 13:01:37.547","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 13:02:10.362","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 13:02:10.362","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 13:02:10.362","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 13:02:37.022","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 13:02:37.023","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 13:02:37.023","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 13:03:45.381","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 13:03:45.382","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 13:03:45.382","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 13:28:21.135","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 13:28:21.136","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"debug","ts":"2024-07-10 13:29:02.451","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 13:29:02.452","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 13:29:02.452","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 13:29:24.584","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 13:29:24.585","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 13:29:24.586","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 13:29:38.423","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 13:29:38.423","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 13:29:38.424","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 13:30:35.910","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 13:30:35.911","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 13:30:35.911","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 13:30:56.109","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 13:30:56.110","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 13:30:56.110","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 13:52:41.528","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 13:52:41.530","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 13:52:41.530","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 13:53:04.274","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 13:53:04.275","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 13:53:04.275","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 13:53:23.020","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 13:53:23.020","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 13:53:23.021","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 13:53:40.963","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 13:53:40.964","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 13:53:40.964","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 13:54:16.020","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 13:54:16.020","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 13:54:16.020","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 13:58:20.389","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 13:58:20.390","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 13:58:20.390","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 13:58:37.991","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 13:58:37.991","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 13:58:37.991","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 13:58:47.433","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 13:58:47.434","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 13:58:47.434","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:00:19.018","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:00:19.019","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:00:19.019","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:00:33.847","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:00:33.847","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:00:33.848","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:01:50.792","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:01:50.793","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:01:50.793","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:15:40.519","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:15:40.520","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:15:40.520","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:16:02.917","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:16:02.917","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:16:02.917","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:17:02.153","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:17:02.155","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:17:02.155","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:20:09.600","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:20:09.601","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:20:09.601","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:25:45.386","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:25:45.387","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:25:45.387","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:26:09.756","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:26:09.756","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:26:09.756","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:26:23.220","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:26:23.221","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:26:23.222","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:26:45.896","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:26:45.896","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:26:45.896","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:37:29.081","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:37:29.082","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:37:29.083","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:38:00.238","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:38:00.239","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:38:00.239","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:38:15.275","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:38:15.275","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:38:15.276","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:38:51.850","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:38:51.850","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:38:51.851","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:39:03.678","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:39:03.679","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:39:03.679","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:39:26.087","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:39:26.088","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:39:26.088","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:40:38.657","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:40:38.657","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:40:38.658","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:42:09.056","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:42:09.058","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:42:09.058","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:42:12.208","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:42:12.209","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:42:12.209","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:42:50.404","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: hangup\n"}
+{"level":"info","ts":"2024-07-10 14:42:50.404","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:42:50.404","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:51:17.479","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:51:17.482","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:51:17.482","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:51:49.091","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:51:49.092","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:51:49.092","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:52:05.279","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:52:05.280","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:52:05.280","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:52:51.440","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:52:51.441","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:52:51.441","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:55:37.056","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:55:37.057","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:55:37.057","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:56:32.346","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:56:32.347","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:56:32.347","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:56:49.853","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:56:49.853","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:56:49.854","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:57:13.388","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:57:13.388","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:57:13.388","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:57:25.205","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:57:25.206","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:57:25.207","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:58:45.141","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:58:45.142","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:58:45.143","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 14:58:53.970","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 14:58:53.971","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 14:58:53.971","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 14:59:28.779","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 14:59:28.780","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 14:59:28.780","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 15:02:28.948","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 15:02:28.949","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 15:02:28.949","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 15:03:04.725","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 15:03:04.726","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 15:03:04.726","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 15:03:15.794","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 15:03:15.795","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 15:03:15.795","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 15:03:41.114","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 15:03:41.114","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 15:03:41.114","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 15:03:53.117","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 15:03:53.117","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 15:03:53.117","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 15:04:24.917","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 15:04:24.917","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 15:04:24.917","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 15:12:56.821","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 15:12:56.821","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 15:12:56.822","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 15:13:44.563","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 15:13:44.564","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 15:13:44.565","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","ts":"2024-07-10 15:15:02.685","caller":"route/engine.go:668","msg":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=github.com/stonebirdjx/bluebird/biz/handler.Ping (num=2 handlers)"}
+{"level":"info","ts":"2024-07-10 15:15:02.685","caller":"route/engine.go:396","msg":"HERTZ: Using network library=netpoll"}
+{"level":"info","ts":"2024-07-10 15:15:02.685","caller":"netpoll/transport.go:140","msg":"HERTZ: HTTP server listening on address=[::]:6789"}
+{"level":"info","ts":"2024-07-10 15:15:27.006","caller":"server/hertz.go:113","msg":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","ts":"2024-07-10 15:15:27.007","caller":"server/hertz.go:77","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"info","ts":"2024-07-10 15:15:27.007","caller":"route/engine.go:313","msg":"HERTZ: Execute OnShutdownHooks finish"}

@@ -15,6 +15,7 @@
 package cmd
 
 import (
+	"context"
 	"fmt"
 
 	"github.com/cloudwego/hertz/pkg/app/server"
@@ -22,6 +23,9 @@ import (
 	"github.com/stonebirdjx/bluebird/biz/conf"
 	"github.com/stonebirdjx/bluebird/biz/log"
 	"github.com/stonebirdjx/bluebird/biz/router"
+	"github.com/stonebirdjx/bluebird/biz/trace"
+	"go.opentelemetry.io/otel"
+	"go.opentelemetry.io/otel/codes"
 )
 
 var serverCmd = &cobra.Command{
@@ -49,7 +53,10 @@ func serverRun(cmd *cobra.Command, args []string) {
 	if err := serverInit(); err != nil {
 		panic(err)
 	}
-
+	tracer :=  otel.Tracer("bluebird")
+	_,span :=tracer.Start(context.Background(),"test-span")
+	span.SetStatus(codes.Ok,"test ok")
+	span.End()
 	port := getPort()
 	h := server.Default(
 		server.WithHostPorts(port))
@@ -59,10 +66,13 @@ func serverRun(cmd *cobra.Command, args []string) {
 }
 
 func serverInit() error {
-	if err := conf.InitConfig(scf.configFile); err != nil {
+	if err := conf.Init(scf.configFile); err != nil {
 		return err
 	}
 	if err := log.Init(); err != nil {
+		return err
+	}
+	if err := trace.Init(); err != nil {
 		return err
 	}
 	return nil

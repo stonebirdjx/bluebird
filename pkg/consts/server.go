@@ -8,3 +8,7 @@ import (
 const (
 	LogIDExtraKey hertzzap.ExtraKey = "log_id"
 )
+
+const(
+	ServerName="bluebird"
+)

@@ -1,5 +1,8 @@
 port: "6789"
 
+otel:
+  grpc_address: "127.0.0.1:4317"
+
 log:
   dir: "logs"
   name: "bluebird.log"
