@@ -1,4 +1,4 @@
-// Copyright 2024 The stonebirdjx
+// Copyright 2024 The stonebirdjx. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+// Package cmd provides a way to start a program with command line parameters
 package cmd
 
 import (
