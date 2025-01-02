@@ -12,24 +12,5 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package cmd
-
-import (
-	"fmt"
-	"os"
-
-	"github.com/spf13/cobra"
-	"github.com/stonebirdjx/bluebird/pkg/consts"
-)
-
-var versionCmd = &cobra.Command{
-	Use:     "version",
-	Short:   "Print the client and server version information for the current context.",
-	Example: `  bluebird version`, // 保留两个空格
-	Run:     versionRun,
-}
-
-func versionRun(cmd *cobra.Command, args []string) {
-	fmt.Println(consts.Version)
-	os.Exit(consts.ExitCodeSuccess)
-}
+// Package consts contains the constants used by the bluebird project.
+package consts
